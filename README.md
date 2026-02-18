@@ -18,6 +18,7 @@ The application is a Spring Boot backend service that automatically performs the
 3. Determines the assigned SQL problem based on registration number.
 4. Generates the correct final SQL query.
 5. Submits the SQL solution to the webhook endpoint using JWT authentication.
+6. Uses Swagger (Springdoc OpenAPI) for API documentation and testing.
 
 All steps execute automatically using Spring Boot's CommandLineRunner without any manual trigger.
 
@@ -26,11 +27,12 @@ All steps execute automatically using Spring Boot's CommandLineRunner without an
 ## Technologies Used
 
 - Java 17
-- Spring Boot 3.2.3
+- Spring Boot 3
 - Maven
-- RestTemplate (for API communication)
+- RestTemplate
 - Embedded Tomcat Server
 - JWT Authentication
+- Swagger (Springdoc OpenAPI)
 - VS Code / Eclipse
 
 ---
