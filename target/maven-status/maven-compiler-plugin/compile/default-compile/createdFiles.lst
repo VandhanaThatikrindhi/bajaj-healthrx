@@ -1,0 +1,12 @@
+com\bajaj\healthrx\client\SolutionSubmissionClient.class
+com\bajaj\healthrx\controller\HiringController.class
+com\bajaj\healthrx\dto\UserRequest.class
+com\bajaj\healthrx\service\impl\SqlSolutionService.class
+com\bajaj\healthrx\runner\TaskRunner.class
+com\bajaj\healthrx\config\AppConfig.class
+com\bajaj\healthrx\util\RegNoUtil.class
+com\bajaj\healthrx\Application.class
+com\bajaj\healthrx\dto\SolutionSubmission.class
+com\bajaj\healthrx\service\HiringService.class
+com\bajaj\healthrx\dto\WebhookResponse.class
+com\bajaj\healthrx\client\WebhookClient.class
