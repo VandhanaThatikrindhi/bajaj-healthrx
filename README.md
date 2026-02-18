@@ -35,24 +35,28 @@ All steps execute automatically using Spring Boot's CommandLineRunner without an
 
 ---
 
+
+
 ## Project Structure
 
 healthrx
-│
-├── src/main/java/com/bajaj/healthrx
-│ ├── Application.java
-│ ├── client/
-│ │ ├── WebhookClient.java
-│ │ └── SolutionSubmissionClient.java
-│ └── runner/
-│ └── TaskRunner.java
-│
-├── src/main/resources
-│ └── application.properties
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── bajaj
+│       │           └── healthrx
+│       │               ├── Application.java
+│       │               ├── client
+│       │               │   ├── WebhookClient.java
+│       │               │   └── SolutionSubmissionClient.java
+│       │               └── runner
+│       │                   └── TaskRunner.java
+│       └── resources
+│           └── application.properties
 │
 ├── pom.xml
 └── healthrx-0.0.1-SNAPSHOT.jar
-
 
 ---
 
